@@ -18,5 +18,12 @@ public class UsoCalendar {
 			}
 	        
 	        System.out.println("Data Agora: "+gc.get(Calendar.DAY_OF_WEEK));
+		    
+		///PARA PEGAR A DATA ATUAL E COLOCAR NO FORMATO ANTERIOR
+		/*
+		Calendar c = Calendar.getInstance();
+	    	SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy");
+	    	System.out.println(formato.format(c.getTime()));
+		*/
 	}
 }
